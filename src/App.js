@@ -4,7 +4,8 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -32,7 +33,7 @@ function App() {
           </Route>
           <Route exact path="/">
             
-            <About />
+            <Redirect to='/about'/>
           </Route>
         </Switch>
         <Footer />
