@@ -1,0 +1,119 @@
+.cv{
+    width: 70vw;
+    margin: 15px auto;
+    background-color: #fff;
+    padding: 40px;
+    color: rgb(48, 48, 48);
+    overflow-y:auto; 
+    max-height: 85vh;
+    position: relative;
+    outline: none;
+}
+.cv > p {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.download__button{
+    
+    padding: 10px;
+    border-radius: 5px;
+    color: #6a82fb;
+    border: 1px solid #6a82fb;
+    font-weight: 300;
+    text-decoration: none;
+    transition:  .3s;
+    width: 180px;
+    text-align: center;
+   
+    
+}
+.download__button:hover{
+    color: #fff;
+    
+    background-color: #6a82fb;
+    
+}
+.cv__section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.cv__sectionLeft{
+    flex:0.7;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: flex-start;
+}
+.cv__sectionLeft > h1{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+ padding: 5px 0 ;
+ color: #6a82fb;
+ font-weight: 900;
+ font-size: 30px;
+}
+.cv__sectionLeft > h2 {
+ font-weight: 300;
+ padding: 1px 0 20px;
+ font-size: 18px;
+}
+.cv__sectionLeft > h3, .cv__sectionRight > h3{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 18px;
+    color: #6a82fb;
+    font-weight: 700;
+    border-left: 5px solid #6a82fb;
+    padding-left: 5px;
+    margin: 20px 0;
+}
+.section__item > h4{
+ margin: 8px 0;
+ font-size: 18px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.section__item > h4 >span, .section__item > p >span {
+    font-weight: 300;
+    color: gray;
+    font-size: 12px;
+}
+.section__item > p{
+    
+    font-size: 13px;
+    
+    margin-bottom: 5px;
+   }
+.cv__sectionRight{
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.cv__sectionRight > p{
+ display: flex;
+ align-items: center;
+ 
+}
+.cv__sectionRight > img{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    width: 150px;
+    
+}
+.cv__sectionRight > p > .MuiSvgIcon-root{
+    padding-right: 3px;
+}
+@media(max-width: 767.98px){
+ .cv__section{
+     flex-direction: column;
+     align-items: flex-start;
+ }
+}

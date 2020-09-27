@@ -1,22 +1,31 @@
 import React from 'react';
 import './css/About.css';
+import Cv from './cv';
+import profile from '../img/profile.jpeg'
 
 
 import {Link} from 'react-router-dom';
 
+
+
+
 function About() {
+
+
     return (
         <div className="about">
         
         <div className="about__section">
         <div className="about__sectionImage">
-            <img src={require('../profile.jpeg')} alt="my photo"/>
+            <img src={profile} alt="yelyzaveta huivan"/>
         </div>
         <div className="about__sectionDescription">
         <h2>Yelyzaveta Huivan</h2>
             <p>
-            I'm a web developer from Ukraine, graduated in 2018 as a software engineer. I enjoy building web apps, exploring and learning new things and I love that feeling when it works. </p><p> Want to know how can I help your project? Check out my project <Link to="/projects">portfolio</Link>  and <Link to="/yelyzaveta_huivan_curriculum.pdf" target="_blank" download>download curriculum</Link>.
+            I'm a web developer from Ukraine, graduated in 2018 as a software engineer. I enjoy building web apps, exploring and learning new things and I love that feeling when it works. </p><p> Want to know how can I help your project? Check out my project <Link to="/projects">portfolio</Link>  and <Cv/>.
+
             </p>
+            
             <p>You can talk to me in English, Spanish, Russian, Ukrainian or javascript (but I prefer human languages). <Link to="/contact"> Message me  </Link> </p>
         </div>
             

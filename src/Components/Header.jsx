@@ -1,20 +1,19 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './css/Header.css';
 import {Link} from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import Cv from './cv';
 
 function Header() {
-// const pathName = location.pathname;
+
 let location = useLocation();
 
-useEffect(() => {
-    console.log(location.pathname);
-  }, []);
 
     return (
         <div className="header">
         <br/>
-            <h1 className="header__title">Hi, I'm <strong>Yelyzaveta Huivan</strong>, a web developer based in Bilbao, Spain</h1>
+            <h1 className="header__title">Hi, I'm <strong>Yelyzaveta Huivan</strong>, a software engineer based in Bilbao, Spain</h1>
+            <Cv className="download__button header__button"/>
             <div className="header__nav">
                 <Link to="/about"className={location.pathname==="/about" ? "header__navLink active": "header__navLink"} >About</Link>
                 <Link to="/projects"className={location.pathname==="/projects" ? "header__navLink active": "header__navLink"}>Projects</Link>

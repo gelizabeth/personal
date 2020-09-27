@@ -11,7 +11,7 @@
     width: 40vw;
     padding: 45px 40px;
 }
-.contact__form h3,p{
+.contact__form > h3, .contact__form > p{
     text-align: center;
     line-height: 1.5rem;
     color: rgb(85,85,85);
@@ -45,8 +45,14 @@ input.contact__formButton{
     border: none;
     box-shadow: 0 5px 30px 0px rgba(255, 75, 90, 0.5);
     align-self: flex-end;
+    cursor: pointer;
 }
 input.contact__formButton:focus{
     border: none;
     border-color: none;
+}
+@media(max-width: 767.98px){
+    .contact__form{
+        width: 90%;
+    }
 }

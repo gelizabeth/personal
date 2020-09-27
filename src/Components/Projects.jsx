@@ -1,7 +1,6 @@
 import React from 'react';
 import './css/Projects.css';
-import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
+
 import LinkIcon from '@material-ui/icons/Link';
 import todo from '../img/todo.png';
 import amazon from '../img/amazon.png';
@@ -19,7 +18,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://fir-7ff2b.firebaseapp.com/
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://fir-7ff2b.firebaseapp.com/
 ">Live Demo</a></p>
                         <div className="tags">
                             <div className="tag">ecommerce</div>
@@ -39,7 +38,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://slack-cbbd3.firebaseapp.com/">Live Demo</a></p>
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://slack-cbbd3.firebaseapp.com/">Live Demo</a></p>
                         <div className="tags">
 
                             <div className="tag">reactJS</div>
@@ -59,7 +58,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://todo-app-elisaveta.herokuapp.com/Example">Live Demo</a></p>
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://todo-app-elisaveta.herokuapp.com/Example">Live Demo</a></p>
                         <div className="tags">
 
                             <div className="tag">nodeJS</div>
@@ -77,7 +76,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://note-keeper-app-react.netlify.app/">Live Demo</a></p>
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://note-keeper-app-react.netlify.app/">Live Demo</a></p>
                         <div className="tags">
                             <div className="tag">ecommerce</div>
                             <div className="tag">reactJS</div>
@@ -94,7 +93,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://blog-projec.herokuapp.com/">Live Demo</a></p>
+                        <p><LinkIcon /><a  rel='noopener noreferrer' target='_blank' href="https://blog-projec.herokuapp.com/">Live Demo</a></p>
                         <div className="tags">
 
                             <div className="tag">EJS</div>
@@ -113,7 +112,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a target='_blank' href="https://link-shortening-app.herokuapp.com/">Live Demo</a></p>
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://link-shortening-app.herokuapp.com/">Live Demo</a></p>
                         <div className="tags">
 
                             <div className="tag">EJS</div>
