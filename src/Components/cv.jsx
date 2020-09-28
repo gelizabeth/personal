@@ -45,13 +45,13 @@ function Cv({className}) {
                         <div className="cv__section">
                             <div className="cv__sectionLeft">
                                 <h1>Yelyzaveta Huivan</h1>
-                                <h2>Web developer</h2>
+                                <h2>Full stack web developer</h2>
                                 <Link to="/yelyzaveta_huivan_curriculum.pdf" target="_blank" download className="download__button">download curriculum</Link>
                             </div>
                             <div className="cv__sectionRight">
                                 <p><PhoneIcon />  +34 655 937 393</p>
                                 <p><MailOutlineIcon />  liza.guyvan1@gmail.com</p>
-                                <p><LanguageIcon /></p>
+                                <p><LanguageIcon /> yelyzaveta.netlify.app</p>
                                 <p><LocationOnIcon />  Bilbao</p>
                             </div>
 
@@ -63,7 +63,7 @@ function Cv({className}) {
                             <div className="cv__sectionLeft" style={{justifyContent: 'center'}}>
                             <div className="section__item">
                             <p>Welcome to my page!</p>
-                                <p> I'm Yelizaveta, but you can call me Liza, I'm a developer with pasion of studying. My first programming experience was when I was just 10 years old trying to build website for my hamsters. Since then, I've graduated as software engineer and now keep learning progamming technologies.</p>
+                                <p> I'm Yelyzaveta, but you can call me Liza, I'm a full-stack web developer. My first programming experience was when I was just 10 years old trying to build website for my hamsters. Since then, I've graduated as software engineer and now keep learning progamming technologies. According to the test of 16 personalities I am an INFP-T Mediator.</p>
                             </div>
                             
                             </div>
@@ -123,6 +123,7 @@ function Cv({className}) {
                                     <p>Node.js</p>
                                     <p>ExpressJS</p>
                                     <p>APIs</p>
+                                    <p>SQL</p>
                                     <p>MongoBD</p>
                                     <p>Firebase tools</p>
                                     <p>High level googleing</p>
