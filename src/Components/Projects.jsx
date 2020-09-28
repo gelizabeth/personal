@@ -7,9 +7,11 @@ import amazon from '../img/amazon.png';
 import slack from '../img/slack.png';
 import blog from '../img/blog.png';
 import keeper from '../img/keeper.png';
-import shortly from '../img/shortly.png'
+import shortly from '../img/shortly.png';
+
 
 function Projects() {
+    
     return (
         <div className="projects">
 
