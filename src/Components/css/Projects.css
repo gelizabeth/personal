@@ -114,11 +114,11 @@ z-index: 0;
   
 }
 @media(max-width: 767.98px){
-    .project__description{
+    /* .project__description{
         visibility: visible;
         opacity: 0.8;
         text-align: left;
-    }
+    } */
     .project__description p{
         right: 0;
     }
