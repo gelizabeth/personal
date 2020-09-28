@@ -120,12 +120,12 @@ z-index: 0;
         text-align: left;
     } */
 
-    .project__description p{
+    /* .project__description p{
         right: 0;
     }
     .tags{
         left: 0;
-    } 
+    }  */
 }
 /* @media (max-width: 991.98px) { 
     .project{
