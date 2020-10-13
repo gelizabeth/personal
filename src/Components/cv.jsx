@@ -119,7 +119,7 @@ function Cv({className}) {
                                     <p>React/Bootstrap </p>
                                     <p>Less/Sass</p>
                                     <p>Git, GitHub, Version Control</p>
-                                    <p>Bash/npm</p>
+                                    <p>npm</p>
                                     <p>Node.js</p>
                                     <p>ExpressJS</p>
                                     <p>APIs</p>
