@@ -80,11 +80,9 @@ function Projects() {
 
                         <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://note-keeper-app-react.netlify.app/">Live Demo</a></p>
                         <div className="tags">
-                            <div className="tag">ecommerce</div>
+                            
                             <div className="tag">reactJS</div>
-                            <div className="tag">firestore</div>
-                            <div className="tag">express</div>
-                            <div className="tag">stripe</div>
+                            
                         </div>
                         <p>A react app to implement note keeping app.</p>
 
