@@ -86,7 +86,7 @@ function Projects() {
                             <div className="tag">express</div>
                             <div className="tag">stripe</div>
                         </div>
-                        <p></p>
+                        <p>A react app to implement note keeping app.</p>
 
                     </div>
                     <h3>A note keeper app</h3>
@@ -105,7 +105,7 @@ function Projects() {
                             <div className="tag">nodeJS</div>
 
                         </div>
-                        <p>A simple blog project, you can see more details by going to live demo</p>
+                        <p>A simple blog project build using EJS, Node.js, ExpressJS and MongoDB. Yiu can play around following instructions of the web.</p>
 
                     </div>
                     <h3>Personal blog</h3>

@@ -4,7 +4,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import './css/cv.css';
 import { Link } from 'react-router-dom';
-import PhoneIcon from '@material-ui/icons/Phone';
+
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import LanguageIcon from '@material-ui/icons/Language';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
@@ -49,7 +49,7 @@ function Cv({className}) {
                                 <Link to="/yelyzaveta_huivan_curriculum.pdf" target="_blank" download className="download__button">download curriculum</Link>
                             </div>
                             <div className="cv__sectionRight">
-                                <p><PhoneIcon />  +34 655 937 393</p>
+                                
                                 <p><MailOutlineIcon />  liza.guyvan1@gmail.com</p>
                                 <p><LanguageIcon /> yelyzaveta.netlify.app</p>
                                 <p><LocationOnIcon />  Bilbao</p>
@@ -98,7 +98,7 @@ function Cv({className}) {
                                 <h3>Work experience</h3>
                                 <div className="section__item">
                                     
-                                    <h4>Salesforce developer <span>Internship at Synebo | autumn 2018</span></h4>
+                                    <h4>Salesforce developer <span>Intern | autumn 2018</span></h4>
                                     <p>My tasks consisted of taking a trailhead course and resolving some typical tasks of junior developer at the company. I also gained time management skills there as I had to combine it with physical class attendance.</p>
                                 </div>
                                 <div className="section__item">
