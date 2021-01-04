@@ -98,6 +98,11 @@ function Cv({className}) {
                                 <h3>Work experience</h3>
                                 <div className="section__item">
                                     
+                                    <h4>Freelance web developer<span>august 2020 - now</span></h4>
+                                    <p>I'm working on some ocasional tasks that I get from my colleagues and on my own projects with goal of building portafolio.</p>
+                                </div>
+                                <div className="section__item">
+                                    
                                     <h4>Salesforce developer <span>Intern | autumn 2018</span></h4>
                                     <p>My tasks consisted of taking a trailhead course and resolving some typical tasks of junior developer at the company. I also gained time management skills there as I had to combine it with physical class attendance.</p>
                                 </div>
@@ -115,8 +120,10 @@ function Cv({className}) {
                                     
                                     <h4>Hard Skills</h4>
                                     <p>HTML&CSS</p>
-                                    <p>Javascript ES6/JQuery </p>
-                                    <p>React/Bootstrap </p>
+                                    <p>Javascript ES6/JQuery/Bootstrap </p>
+                                    <p>React(Hooks & Context Api)</p>
+                                    <p>Redux</p>
+                                    <p>Ajax</p>
                                     <p>Less/Sass</p>
                                     <p>Git, GitHub, Version Control</p>
                                     <p>npm</p>
