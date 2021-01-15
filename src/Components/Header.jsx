@@ -16,7 +16,7 @@ let location = useLocation();
             <Cv className="download__button header__button"/>
             <div className="header__nav">
                 <Link to="/about"className={location.pathname==="/about" ? "header__navLink active": "header__navLink"} >About</Link>
-                <Link to="/projects"className={location.pathname==="/projects" ? "header__navLink active": "header__navLink"}>Projects</Link>
+                <Link to="/projects"className={location.pathname==="/projects" ? "header__navLink active": "header__navLink"}>Selected_projects</Link>
                 <Link to="/contact"className={location.pathname==="/contact" ? "header__navLink active": "header__navLink"}>Contact</Link>
             </div>
         </div>

@@ -62,8 +62,8 @@ function Cv({className}) {
                             </div>
                             <div className="cv__sectionLeft" style={{justifyContent: 'center'}}>
                             <div className="section__item">
-                            <p>Welcome to my page!</p>
-                                <p> I'm Yelyzaveta, but you can call me Liza, I'm a full-stack web developer. My first programming experience was when I was just 10 years old trying to build website for my hamsters. Since then, I've graduated as software engineer and now keep learning progamming technologies. According to the test of 16 personalities I am an INFP-T Mediator.</p>
+                            
+                                <p> Hello, I’m Yelyzaveta, but you can call me Liza. I'm a graduated software engineer with strong motivation of amplifying my experience and knowledge as well as career growth. I always try to do my best for the tasks and I get really inspired by seeing results of my work.</p>
                             </div>
                             
                             </div>
