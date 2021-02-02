@@ -89,6 +89,9 @@
     
     margin-bottom: 5px;
    }
+   .section__item  a:visited{
+    color: blue;
+   }
 .cv__sectionRight{
     flex: 0.2;
     display: flex;
@@ -100,8 +103,8 @@
 .cv__sectionRight > p{
  display: flex;
  align-items: center;
- 
 }
+
 .cv__sectionRight > img{
     padding-top: 15px;
     padding-bottom: 5px;

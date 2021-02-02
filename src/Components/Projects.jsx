@@ -4,10 +4,11 @@ import './css/Projects.css';
 import LinkIcon from '@material-ui/icons/Link';
 import todo from '../img/todo.png';
 import amazon from '../img/amazon.png';
-import slack from '../img/slack.png';
+import pomodoro from '../img/pomodoro.jpg';
 import blog from '../img/blog.png';
 import keeper from '../img/keeper.png';
 import shortly from '../img/shortly.png';
+import counsel from '../img/counsel.png';
 
 
 function Projects() {
@@ -36,24 +37,44 @@ function Projects() {
                     </div>
                     <h3>Amazon ecommerce app</h3>
                 </div>
-                <div className="project" style={{ backgroundImage: `url(${slack})`, backgroundSize: 'cover' }}>
+                <div className="project" style={{ backgroundImage: `url(${pomodoro})`, backgroundSize: 'cover' }}>
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://slack-cbbd3.firebaseapp.com/">Live Demo</a></p>
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://relaxed-haibt-a4c94f.netlify.app/">Live Demo</a></p>
                         <div className="tags">
 
-                            <div className="tag">reactJS</div>
-                            <div className="tag">firebase</div>
-                            <div className="tag">material-ui</div>
+                            <div className="tag">HTML</div>
+                            <div className="tag">CSS</div>
+                            <div className="tag">React</div>
                             <div className="tag">javascript</div>
-                            <div className="tag">axios</div>
+                            <div className="tag">Context API</div>
 
                         </div>
-                        <p>This is a slack clone, a live-chat application built with reactJS, axios for making requests, firebase realtime database, and firebase authorization. </p>
+                        <p>A pomodoro timer app, designed and build from scratch using React(Hooks & Context Api) and CSS styling.</p>
 
                     </div>
-                    <h3>Slack live-chat app</h3>
+                    <h3>Pomodoro timer </h3>
+                </div>
+                <div className="project" style={{ backgroundImage: `url(${counsel})`, backgroundSize: 'cover' }}>
+
+                    <div className="project__description">
+
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://gelizabeth.github.io/counsel/">Live Demo</a></p>
+                        <div className="tags">
+
+                            <div className="tag">HTML</div>
+                            <div className="tag">CSS</div>
+                            <div className="tag">SCSS</div>
+                            <div className="tag">Javascript</div>
+                            <div className="tag">Bootstrap</div>
+                            <div className="tag">JQuery</div>
+
+                        </div>
+                        <p>A responsive landing page built from PSD template with HTML, SCSS, Bootstrap and JQuery with Google Maps integration.</p>
+
+                    </div>
+                    <h3>Lawyer consult landing page</h3>
                 </div>
 
                 <div className="project" style={{ backgroundImage: `url(${todo})`, backgroundSize: 'cover' }}>
@@ -108,7 +129,7 @@ function Projects() {
                     </div>
                     <h3>Personal blog</h3>
                 </div>
-                <div className="project" style={{ backgroundImage: `url(${shortly})`, backgroundSize: 'cover' }}>
+                {/* <div className="project" style={{ backgroundImage: `url(${shortly})`, backgroundSize: 'cover' }}>
 
                     <div className="project__description">
 
@@ -126,7 +147,7 @@ function Projects() {
 
                     </div>
                     <h3>Shortly. Link shortening app</h3>
-                </div>
+                </div> */}
             </div>
         </div>
     )
