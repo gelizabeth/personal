@@ -147,7 +147,7 @@ frontend development - lightning framework. I also gained time management skills
                                     <p>React(Hooks & Context Api)</p>
                                     <p>Redux</p>
                                     <p>Ajax</p>
-                                    <p>Less/Sass</p>
+                                    <p>Sass</p>
                                     <p>Git, GitHub, Version Control</p>
                                     <p>npm</p>
                                     <p>Node.js</p>

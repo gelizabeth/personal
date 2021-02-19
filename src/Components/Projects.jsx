@@ -7,9 +7,10 @@ import amazon from '../img/amazon.png';
 import pomodoro from '../img/pomodoro.jpg';
 import blog from '../img/blog.png';
 import keeper from '../img/keeper.png';
-import shortly from '../img/shortly.png';
 import counsel from '../img/counsel.png';
-
+import todoReact from '../img/todo-react.png';
+import crowdfunding from '../img/crowdfunding.png';
+import ip from '../img/ip.png';
 
 function Projects() {
     
@@ -17,6 +18,68 @@ function Projects() {
         <div className="projects">
 
             <div className="projects__container">
+            <div className="project" style={{ backgroundImage: `url(${todoReact})`, backgroundSize: 'cover' }}>
+
+                    <div className="project__description">
+
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://compassionate-mclean-d1274f.netlify.app/
+">Live Demo</a></p>
+                        <div className="tags">
+                            
+                            <div className="tag">reactJS</div>
+                            <div className="tag">Sass</div>
+                           
+                            <div className="tag">javascript</div>
+                            <div className="tag">localStorage</div>
+                            
+                            
+                        </div>
+                        <p>A responsive todo app, with light/dark mode toggle.
+Theme preference and todos are stored in Local Storage.
+This app is built with ReactJS using BEM, Mobile first methodology and Sass for styles. </p>
+
+                    </div>
+                    <h3>TODO APP ReactJS</h3>
+                </div>
+                <div className="project" style={{ backgroundImage: `url(${crowdfunding})`, backgroundSize: 'cover' }}>
+
+                    <div className="project__description">
+
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://gelizabeth.github.io/crowdfunding-product/dist/
+">Live Demo</a></p>
+                        <div className="tags">
+                        <div className="tag">HTML</div>
+                            <div className="tag">Sass</div>
+                            
+                            <div className="tag">javascript</div>
+                            <div className="tag">responsive</div>
+                        </div>
+                        <p>A pure HTML, Sass responsive landing page made from provided design, with some css animations and hover effects. It has javascript for modal windows functionalities and some interactive buttons (such as 'back this project', 'bookmark, menu toggle button).</p>
+
+                    </div>
+                    <h3>Crowdfunding landing page</h3>
+                </div>
+                <div className="project" style={{ backgroundImage: `url(${ip})`, backgroundSize: 'cover' }}>
+
+                    <div className="project__description">
+
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://gelizabeth.github.io/ip-address-tracker/
+">Live Demo</a></p>
+                        <div className="tags">
+                            <div className="tag">HTML</div>
+                            <div className="tag">CSS</div>
+                            <div className="tag">IPify API</div>
+                            <div className="tag">Api</div>
+                            <div className="tag">LeafletJS</div>
+                            <div className="tag">javascript</div>
+                            
+                        </div>
+                        <p>A responsive SPA. Input validation is made with regExpr.
+ IP Geolocation API by IPify for fetching info about ip/domain address, LeafletJS library for generating map. </p>
+
+                    </div>
+                    <h3>IP tracking app</h3>
+                </div>
                 <div className="project" style={{ backgroundImage: `url(${amazon})`, backgroundSize: 'cover' }}>
 
                     <div className="project__description">
