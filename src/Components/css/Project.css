@@ -1,0 +1,28 @@
+.project{
+    /* width: 250px; */
+    max-width: 380px;
+    height: 450px;
+    
+    transition: all 0.5s ease-in;
+    margin: 1rem;
+}
+.project:hover{
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.2);
+    
+}
+.project__media{
+    height: 245px;
+    /* background-size: cover; 
+    background-position:top; */
+    
+}
+.project__content{
+    height: 110px;
+}
+.project__content *{
+ cursor:default;
+}
+.MuiCardMedia-img{
+    /* background-size: contain; */
+    /* background-position: center; */
+}

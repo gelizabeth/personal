@@ -50,6 +50,29 @@ function About() {
                     </div>
                 </div>
                 <div className="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/113px-CSS3_logo_and_wordmark.svg.png" alt=""/>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/160px-HTML5_logo_and_wordmark.svg.png" alt=""/>
+                    <div className="skill__info">
+                        <h3>HTML & CSS</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div className="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/160px-Bootstrap_logo.svg.png" alt=""/>
+                    <div className="skill__info">
+                        <h3>Bootstrap</h3>
+                        <p></p>
+                    </div>
+                </div>
+                <div className="skill">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/383px-Git-logo.svg.png" alt=""/>
+                    <div className="skill__info">
+                        <h3>Git</h3>
+                        <p></p>
+                    </div>
+                </div>
+                
+                <div className="skill">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/262px-Node.js_logo.svg.png" alt=""/>
                     <div className="skill__info">
                         <h3>Node.js</h3>
@@ -77,28 +100,8 @@ function About() {
                         <p></p>
                     </div>
                 </div>
-                <div className="skill">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/113px-CSS3_logo_and_wordmark.svg.png" alt=""/>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/160px-HTML5_logo_and_wordmark.svg.png" alt=""/>
-                    <div className="skill__info">
-                        <h3>HTML & CSS</h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div className="skill">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/160px-Bootstrap_logo.svg.png" alt=""/>
-                    <div className="skill__info">
-                        <h3>Bootstrap</h3>
-                        <p></p>
-                    </div>
-                </div>
-                <div className="skill">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/383px-Git-logo.svg.png" alt=""/>
-                    <div className="skill__info">
-                        <h3>Git</h3>
-                        <p></p>
-                    </div>
-                </div>
+               
+               
             </div>
             </div>
         </div>

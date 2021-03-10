@@ -22,17 +22,10 @@
     color: #fff !important; 
     font-weight: 400; 
     border-color: #fff !important;
-    box-shadow :
-    inset 0em 0 0 0 #6a82fb ,
-    inset 0em 0 0 0 #6a82fb ; 
 }
 
 .header__button:hover{
-    background-color: transparent!important;
-    border-color: #6a82fb !important;
-    box-shadow: 
-    inset -6.5em 0 0 0 #6a82fb ,
-    inset 6.5em 0 0 0 #6a82fb ; 
+    border-color: #6a82fb !important; 
 }
 .header__nav{
     width: 40%;
@@ -52,23 +45,9 @@
     padding: 15px 0;
     margin: auto;
     position: relative;
-    /* transition: all .1s ease-in; */
+    transition: all .1s ease-in;
 }
-.header__navLink::after{
-    content: '';
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    width: 0;
-    
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.2) ;
-    transition: all 0.2s ease-in;
-}
-.header__navLink:hover::after{
-    width: 80%;
-    left: 10%;
-}
+
 .active{ 
     font-weight: 400;  
 }
