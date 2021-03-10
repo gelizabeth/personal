@@ -20,31 +20,31 @@ function Projects() {
     const projectList = [
         {
             title: 'Countries REST API',
-            description: 'A responsive Countries application with color theme switcher, data fetching from API. Built with React and Sass.',
-            tags: ['reactJS', 'react-router', 'sass', 'javascript', 'API', 'react-bootstrap'],
+            description: 'Responsive front-end application with color theme switcher, data fetching from API, routing through countries, dynamic search and filtering. Built with React and Sass.',
+            tags: ['ReactJS', 'sass', 'javascript', 'API', 'bootstrap'],
             img: countries,
             link: 'https://countries-react-sass.netlify.app/',
             github: 'https://github.com/gelizabeth/countries-react-sass-api'
         },
         {
             title: 'ToDo list',
-            description: 'A responsive todo app, with light/dark mode toggle. Theme preference and todos are stored in Local Storage. This app is built with ReactJS using BEM, Mobile first methodology and Sass for styles.',
-            tags: ['reactJS', 'sass', 'javascript', 'localStorage'],
+            description: 'Responsive front-end application with color theme switcher, data filterind and Local Storage usage. This app is built with ReactJS using BEM, Mobile first methodology and Sass for styles.',
+            tags: ['ReactJS', 'sass', 'javascript', 'localStorage'],
             img: todoReact,
             link: 'https://todo-react-sass.netlify.app/',
             github: 'https://github.com/gelizabeth/todo-react-sass'
         },
         {
             title: 'Pomodoro timer',
-            description: 'A pomodoro timer app, designed and build from scratch using ReactJS (Hooks & Context Api), CSS styling and sound integration.',
-            tags: ['reactJS', 'css', 'Context API', 'media'],
+            description: 'Responsive front-end app, designed and build from scratch with ReactJS (Hooks & Context Api), CSS styling and media integration (timer sound).',
+            tags: ['ReactJS', 'css', 'Context API', 'media'],
             img: pomodoro,
             link: 'https://relaxed-haibt-a4c94f.netlify.app/',
             github: 'https://github.com/gelizabeth/pomodoro'
         },
         {
             title: 'IP tracker',
-            description: 'A responsive SPA. Input validation is made with regExpr. IP Geolocation API by IPify for fetching info about ip/domain address, LeafletJS library for generating map.',
+            description: 'Responsive SPA. Input validation is made with regExpr. IP Geolocation API by IPify for fetching info about ip/domain address, LeafletJS library for generating map.',
             tags: ['javascript', 'html', 'css', 'API', 'leaflet'],
             img: ip,
             link: 'https://gelizabeth.github.io/ip-address-tracker/',
@@ -60,7 +60,7 @@ function Projects() {
         },
         {
             title: 'Blog app',
-            description: 'A fullstack CRUD project with built using EJS, Node.js, ExpressJS and MongoDB. You can play around following instructions of the web.',
+            description: 'Fullstack CRUD project with built using EJS, Node.js, ExpressJS and MongoDB. You can play around following instructions of the web.',
             tags: ['Node.js', 'EJS', 'Express.js', 'MongoDB'],
             img: blog,
             link: 'https://blog-projec.herokuapp.com/'}

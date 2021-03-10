@@ -1,7 +1,7 @@
 .project{
     /* width: 250px; */
     max-width: 380px;
-    height: 450px;
+    height: 490px;
     
     transition: all 0.5s ease-in;
     margin: 1rem;
@@ -17,7 +17,7 @@
     
 }
 .project__content{
-    height: 110px;
+    height: 145px;
 }
 .project__content *{
  cursor:default;
