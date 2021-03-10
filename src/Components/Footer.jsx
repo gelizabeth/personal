@@ -5,8 +5,8 @@ function Footer() {
     return (
         <div className="footer">
            
-           © 2020 Yelyzaveta Huivan <br/>
-            <em>I've built this site from scratch with reactJS, Google fonts, material-ui icons and inspired for by Jessie Ren design.</em>
+           © 2021 Yelyzaveta Huivan <br/>
+            {/* <em>I've built this site from scratch with reactJS, Google fonts, material-ui icons and inspired for by Jessie Ren design.</em> */}
         </div>
     )
 }
