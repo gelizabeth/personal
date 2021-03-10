@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
       margin: 0,
     },
     chip: {
-        margin: theme.spacing(0.5),
+        margin: theme.spacing(0.6),
         marginLeft: theme.spacing(0),
   },
   }));
@@ -45,7 +45,7 @@ const Project = ({ projectItem }) => {
             />
             <CardContent className='project__content'>
                 <ul className={classes.root} >
-                {projectItem.tags.map((tag, index) => <li key={`chip-${index}`}><Chip className={classes.chip} variant="outlined" size="small" label={tag} color="primary"/></li>)}
+                {projectItem.tags.map((tag, index) => <li key={`chip-${index}`}><Chip className={classes.chip} variant="outlined" size="small" label={tag} /></li>)}
                 </ul>
                 
                 <Typography gutterBottom variant="h5" component="h2">
