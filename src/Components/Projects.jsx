@@ -22,7 +22,7 @@ function Projects() {
 
                     <div className="project__description">
 
-                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://compassionate-mclean-d1274f.netlify.app/
+                        <p><LinkIcon /><a rel='noopener noreferrer' target='_blank' href="https://todo-react-sass.netlify.app/
 ">Live Demo</a></p>
                         <div className="tags">
                             
